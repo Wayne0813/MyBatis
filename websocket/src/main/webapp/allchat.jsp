@@ -25,7 +25,7 @@
         var ws = null;
 
         if(WebSocket){
-            ws = new WebSocket("ws://localhost/allChat")
+            ws = new WebSocket("ws://192.168.1.102/allChat")
         } else {
             alert("您的浏览器不支持WebSocket!")
         }
